@@ -3,5 +3,8 @@ name: ToadWorld Fiction
 description: Thinking of a different world
 collections:
   stories:
-    output: true
+    output: false
+    permalink: /stories/:path/
+  standalone_stories:
+    output: false
     permalink: /stories/:path/

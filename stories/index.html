@@ -18,7 +18,20 @@ author:
 ---
 <p><strong>Cara Donnelly</strong> is a writer, an improviser and comedienne.  She has contributed to Diva magazine and Persephone magazine and directed <a href="http://www.twoshadesofblue.org.uk/?p=855">Snow White: The Way Through The Woods</a>, an orchestral melodrama in verse.  She has given invited improvised comedy workshops to the <a href="http://www.thechameleons.co.uk/">London Chameleons</a> and <a href="http://theyoungactorscompany.com/">The Young Actors Company</a>, has a PhD in Astrophysics and has worked as a <a href="https://www.linkedin.com/profile/view?id=282667482">software developer</a>.  She plays <a href="https://en.wikipedia.org/wiki/Go_%28game%29">Go</a>.</p>
 
-<p>
+<div>
+{% assign sorted_standalone_stories = site.standalone_stories | sort: 'standalone_story_weight' %}
+<h2>Standalone stories</h2>
+<ul>
+{% for story in sorted_standalone_stories %}
+  <li>{{ story.title }}
+  <p class="blurb">
+    {{ story.blurb }}
+    {% include standalone_story_link.html link_standalone_story_id=story.standalone_story_id link_standalone_story_title="(read more)" %}
+  </p>
+  </li>
+{% endfor %}
+</ul>
+
 {% assign sorted_stories = site.stories | sort: 'story_weight' %}
 {% for story in sorted_stories %}
   <h2>{{ story.title }}</h2>
@@ -40,4 +53,4 @@ author:
   {% endfor %}
   </ol>
 {% endfor %}
-</p>
+</div>
