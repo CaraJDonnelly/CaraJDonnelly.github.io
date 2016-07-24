@@ -1,28 +1,18 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Server migration to GitHub/Jekyll!"
 date:   2016-07-23 13:55:37 +0100
 categories: jekyll update
 ---
 
-Hello world!
+I finally bit the bullet and migrated from BlueHost/WordPress to GitHub/Jekyll.  This made this site literally ten times faster to load.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+WordPress uses PHP, which is usually a very slow interpreted language.  Because my site hosts stories with all sorts of complicated cross-references (stories, chapters, subchapters) I was making PHP do a lot of work.  Pingdom.com reports my old site would take 2.31s to load the front page.  I refer to the [Nielsen Norman Group][latency-ref]: < 0.1s is 'instant', < 1s is 'okay', and anything more than 1s is bad.  My own monitoring showed that sometimes BlueHost/Wordpress would take more than 5s to load the front page of my website.  That's awful.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Jekyll does all of the cross-referencing in one go before I upload a change.  This means GitHub has a much simpler job when serving my data (RAM-bound rather than CPU bound).  Jekyll is also more of a 'power tool' than WordPress.  A user of Jekyll is expected to know how to write raw HTML and understand how to write their own sensible data structures for iterating over.  This meant the optimisations that were too hard to do to my WordPress site were 'easy' on my Jekyll site.
 
-Jekyll also offers powerful support for code snippets:
+('Easy' here means "I wrote a git precommit hook to stat the age of the cached javascript..." etc. etc.)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Now this site loads in 0.255s.  That's almost 'instant'!  Thank you Jekyll!  Thank you GitHub pages!
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[latency-ref]: https://www.nngroup.com/articles/powers-of-10-time-scales-in-ux/ 
