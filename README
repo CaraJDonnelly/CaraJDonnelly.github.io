@@ -1,0 +1,33 @@
+This document should convince you that using Jekyll for this project was the
+wrong idea.  It should then convince you that it was the least-wrong idea.
+
+This blog focuses on /posts/ and /stories/.  When we display stories we want to
+display things like chapters and subchapters in order, and when we display the
+top level page of stories we want to display a fully expanded list of all
+stories, chapters and subchapters, all in order.  For legacy reasons we would
+also like the URLs to remain what they were when this blog was hosted on
+Wordpress, i.e. a directory-based format.
+
+We achieve this with Jekyll by using a combination of collections and static
+pages.
+
+Take the story GENERIC_STORY.  It has two chapters, 1 and 2, each with three
+and four subchapters respectively.  For the third subchapter of the second
+chapter you create a static HTML file at
+
+/stories/GENERIC_STORY/CHAPTER_TWO/SUBCHAPTER_THREE/index.html
+
+and edit
+
+/_STORIES/GENERIC_STORY.html
+
+to provide the ordering in the story, the previous and next buttons, etc.
+
+Each subchapter should have the layout of 'subchapter'.  This will display
+navigation for within the story.
+
+All of this takes a little while to render because each subchapter needs to
+find itself in the stories collection, and there is some mildly unsettling
+repetition in the story ids, chapter ids, subchapter ids and the directory
+paths.  But this is the main selling point of Jekyll: do the horrible
+computation once.

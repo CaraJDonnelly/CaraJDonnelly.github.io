@@ -1,0 +1,43 @@
+{% for story in site.stories %}
+  {% if story.story_id != page.story_id %}
+    {% continue %}
+  {% endif %}
+  {% for chapter in story.chapters %}
+    {% if chapter.chapter_id != page.chapter_id %}
+      {% continue %}
+    {% endif %}
+    {% if chapter.prev_chapter_id %}
+      <p>
+        {% include chapter_link.html link_story_id=story.story_id link_chapter_id=chapter.prev_chapter_id link_subchapter_title="Previous chapter" %}
+      </p>
+    {% endif %}
+    {% if chapter.next_chapter_id %}
+      <p>
+        {% include chapter_link.html link_story_id=story.story_id link_chapter_id=chapter.next_chapter_id link_subchapter_title="Next chapter" %}
+      </p>
+    {% endif %}
+    {% for subchapter in chapter.subchapters %}
+      {% if subchapter.subchapter_id != page.subchapter_id %}
+        {% continue %}
+      {% endif %}
+      {% assign prev_subchapter_chapter = chapter.chapter_id %}
+      {% if subchapter.is_first_subchapter %}
+        {% assign prev_subchapter_chapter = chapter.prev_chapter_id %}
+      {% endif %}
+      {% if subchapter.prev_subchapter_id %}
+	<p>
+        {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=prev_subchapter_chapter link_subchapter_id=subchapter.prev_subchapter_id link_subchapter_title="Previous page" %}
+        </p>
+      {% endif %}
+      {% assign next_subchapter_chapter = chapter.chapter_id %}
+      {% if subchapter.is_last_subchapter %}
+        {% assign next_subchapter_chapter = chapter.next_chapter_id %}
+      {% endif %}
+      {% if subchapter.next_subchapter_id %}
+	<p>
+        {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=next_subchapter_chapter link_subchapter_id=subchapter.next_subchapter_id link_subchapter_title="Next page" %}
+        </p>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}

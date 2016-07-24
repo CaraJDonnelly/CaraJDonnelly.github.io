@@ -1,0 +1,7 @@
+url: http://www.toadworld.co.uk
+name: ToadWorld Fiction
+description: Thinking of a different world
+collections:
+  stories:
+    output: true
+    permalink: /stories/:path/

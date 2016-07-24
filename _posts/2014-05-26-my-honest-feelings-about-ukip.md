@@ -1,0 +1,36 @@
+---
+id: 117
+title: My Honest Feelings About UKIP
+date: 2014-05-26T12:11:42+00:00
+author: Cara Donnelly
+layout: post
+guid: http://www.toadworld.co.uk/?p=117
+permalink: /my-honest-feelings-about-ukip/
+categories:
+  - politics
+tags:
+  - eastern europe
+  - immigration
+  - ukip
+---
+(I&#8217;ve found that since I&#8217;ve started using Toadworld rather than my my old blog, which was not attached to my full name, I&#8217;ve found it much harder to write here without worrying about possible repercussions. This is the strongest response to that I can think of.)
+
+I find the rise of UKIP frightening, and i can understand why someone would vote for them.
+
+I find it frightening because I&#8217;m gay, and even though UKIP says it supports civil partnerships its members suggest [shooting &#8220;poofters&#8221;](http://www.pinknews.co.uk/2014/05/16/video-nigel-farage-says-he-is-unaware-of-ukip-candidate-who-called-for-poofters-to-be-shot/) in interviews.  The rise of the Far Right &#8211; or even the Slightly Far Right &#8211; in the UK has me eyeing the exits and making a mental checklist of what I would need to leave behind to make sure that life in a new country would be unencumbered by the past.  It&#8217;s a very long list, but I&#8217;m working on it.
+
+I find it sad, too, that the rest of Europe has voted like us for once.  Le Front Nationale in France, the Golden Dawn in Greece getting their first seat, or the Danish People&#8217;s Party in Denmark.  To me the EU has always been the thing that reins in the UK Government by insisting that we be our best &#8211; whether it be letting prisoners vote (_Edit: LM points out this is the ECHR, not the EU and I think so is my following example)_ or migrant women that become pregnant receive benefits, as well as representing us to the world as a unified family that can require things like no animal testing on cosmetics within our borders.  To watch the European Parliament suddenly gain a slimeing of proto-fascists is upsetting, especially with Russia on our Eastern border heading south as well.  It&#8217;s a cliche by now, but the parallels with the early 1930s are discomforting.
+
+So now to say why I can imagine people voting for UKIP.  The big first reason is that I personally don&#8217;t want to vote for any of the main three parties without good reason &#8211; I voted for Julian Huppert in Cambridge because I knew he would be the only research scientist in Parliament and I thought that was incredibly valuable.  I don&#8217;t want to vote for the main three because I&#8217;m sick of ministers being caught cheating or lying who then start apologising and resigning and turning up six months later in another post like a bad smell, and I don&#8217;t like being bullied by Tory election leaflets that say LABOUR/LIB DEMS CAN&#8217;T WIN HERE, IT&#8217;S A TWO HORSE RACE &#8211; which they say regardless of whether or not it&#8217;s true.  I don&#8217;t feel like I can trust anyone who oversees that kind of system.  Previously the Lib Dems had been &#8216;clean&#8217; enough to vote for because they hadn&#8217;t yet proven craven, and last week their share of the vote duly fell by 50% in some areas.  So that immediately narrows my field to the Greens (who did get my vote last week), UKIP, and a bunch of UKIP splinter parties made up from people too crazy to be in UKIP.
+
+So now about immigration and &#8216;Romanians&#8217;.  A friend said to me yesterday she didn&#8217;t follow why &#8220;living next to Germans&#8221; and &#8220;living next to Romanians&#8221; would be different, and why it got Farage to say &#8220;You know the difference.&#8221;.  I&#8217;m not sure how unique I am in my group of friends, and I&#8217;m aware that I&#8217;m about to say something openly xenophobic &#8211; the reason I&#8217;m _writing_ this post, really &#8211; but _yes, I know the difference_, and now I&#8217;m worrying that my friends are sufficiently better people than me that maybe they don&#8217;t and they find the rise of UKIP bewildering.  I don&#8217;t like that I have these cultural stereotypes in my head, but I do and if we want to address the rise of UKIP at all we have to be honest about them.
+
+Germans:  Honest, efficient, quiet people &#8211; northern Europeans.  We beat them to win the World Cup in 1966, and played them at football in 1915 in [different circumstances](http://en.wikipedia.org/wiki/Christmas_truce).  We learn their language in school and complain about their towels at holiday destinations &#8211; which is both a harmless stereotype and an indication that we expect to go on holiday to the same places as Germans.  If they chose to move they probably had a good reason.
+
+Romanians:  No idea.  They probably have scruffy beards and live with far too many of them to a house.  Don&#8217;t recognise their language.  They probably drink cheap distilled spirits.  They sound far too similar to Roma, the gypsies, a whole different section of society with extremely negative stereotypes (_I recall when my parents&#8217; house in Essex was broken into and trashed, the thieves obviously searching for something, the police officer who responded shrugged and said &#8220;It&#8217;s probably those gypsies down the road.&#8221;). _ Their country is Eastern European and sounds poor &#8211; so they&#8217;re probably here because there weren&#8217;t good opportunities in their own country.
+
+I don&#8217;t like having those negative mental images in my head.  My manager is from a country that borders Belarus and he is the most _lovely_ person ever, and has managed &#8211; because I had no prior stereotypes for his country of origin &#8211; to make me envision that country to be full of friendly people with gentle senses of humour (and who seriously make the nicest managers).  [Improkraatia](https://www.facebook.com/improkraatia) are from Estonia and again have made me imagine a country where people work together to make their sandwiches for lunchtime, and who are exactly the kind of people you might ask to help you move house because you _know_ they would all say yes and oh my goodness is that a flowchart of how to move the boxes most efficiently?  Let me make you dinner &#8211; the first meal in my new house!  That&#8217;s how that would play out, because they&#8217;re lovely.
+
+What I&#8217;m saying is: All I needed to stop being xenophobic towards &#8216;Eastern European countries&#8217; was just to meet and spend some time with some people from that region.
+
+If we spend our time being negative about UKIP rather than admitting that people have a negative view of immigration and Eastern Europeans and so drawing attention to the positives that immigration brings us, then we will lose the political argument.  Judging by its effect on me and me alone, I venture that calling UKIP racist is less effective _in this context_ as reminding everyone why racism is incorrect, why it&#8217;s something we fight against, and letting people make up their own minds.  And I&#8217;d like us not to lose that argument, because I don&#8217;t like having to eye up the exits.

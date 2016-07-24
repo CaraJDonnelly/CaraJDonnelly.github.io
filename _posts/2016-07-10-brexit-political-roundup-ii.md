@@ -1,0 +1,42 @@
+---
+id: 672
+title: 'Brexit: Political Roundup II'
+date: 2016-07-10T12:48:03+00:00
+author: Cara Donnelly
+layout: post
+guid: http://www.toadworld.co.uk/?p=672
+permalink: /brexit-political-roundup-ii/
+categories:
+  - politics
+  - software
+tags:
+  - brexit
+---
+I fear for our country.  The sudden surge in xenophobic crime is not something I recognise.  I&#8217;ve donated to those affected but I fear I&#8217;m staying within the narrative of metropolitan elite helping the Other before the British working class.  The likely next PM (Theresa May) will steady the boat but do nothing for our class divisions.
+
+I fear for our economy.  My previous job was as a Python developer.  On my team there was an Latvian, a Pole, an Italian, a Greek and finally two Britons.  The two Britons were the least experienced.  If British technology companies suddenly lose 60% of their workforce they will perish.  A similar story holds for the NHS.  A similar story holds for our financial services.  We cannot afford the worst-case scenario.
+
+I fear for our democracy.  I&#8217;ve stopped acting like a Millenial and have signed up to pay for the Financial Times (£1/month via Google Play Newsstand), the Guardian, the New Statesman and the [New European](http://www.theneweuropean.co.uk) (£2/issue, 4 issues only).  Diverse media is vital for democracy.
+
+# Politically
+
+  * CON (330 seats): **moderate disarray** after David Cameron (Conservative leader, Prime Minister) said he would step down.  The careers of [Johnstone](http://www.telegraph.co.uk/news/2016/06/30/boris-johnson-wont-run-for-prime-minister-after-michael-gove-ent/) and [Gove](http://www.mirror.co.uk/news/uk-news/michael-goves-racist-mug-revelation-8386664) (leaders of the victorious Leave campaign) are both ruined after infighting.  The remaining candidates for Conservative leader and thus Prime Minister are [Theresa May and Andrea Leadsom](http://www.theguardian.com/politics/2016/jul/07/tory-leadership-top-trumps-theresa-may-vs-andrea-leadsom).  May is [the heavy favourite](https://yougov.co.uk/news/2016/07/05/theresa-may-leads-conservative-leadership-race/).  Leadsom has been criticised by Conservative MPs for [campaigning on May&#8217;s infertility](http://www.independent.co.uk/news/uk/politics/andrea-leadsom-theresa-may-vile-insulting-children-conservative-leadership-tory-a7128311.html).  The next Prime Minister will be decided by [a vote of Conservative party members](http://www.westminsteradvisers.co.uk/2015/03/follow-the-leader-rules-for-party-leadership-elections/).
+  * LAB (230 seats): **complete disarray** after Jeremy Corbyn (Labour leader) [lost a symbolic vote of no confidence](http://www.bbc.co.uk/news/uk-politics-36647458) from the Parliamentary Labour Party (PLP) by 172-40.  Angela Eagle will [stand as his opponent](http://www.bbc.co.uk/news/uk-politics-36756975) in the upcoming Labour leadership elections.  The PLP are attempting [to prevent Corbyn from standing](http://www.telegraph.co.uk/news/2016/07/10/labour-party-leader-jeremy-corbyn-faces-angela-eagle-leadership/) as [100,000 new members join](http://www.huffingtonpost.co.uk/entry/labour-party-membership-applications-surge-100000-since-eu-referendum_uk_577be9e8e4b073366f0fe97f). The new members are presumed to be Corbyn supporters: if the PLP do not prevent Corbyn from standing the presumption is that [he shall retain the leadership](http://www.newstatesman.com/politics/staggers/2016/07/labour-go-war-jeremy-corbyn-holds-best-cards) against the wishes of the PLP.
+  * ?????? (371 seats): **unlikely, but astounding**.  Pro-EU Conservative and Labour MPs are informally discussing [forming a new centrist party](http://www.telegraph.co.uk/news/2016/07/10/talks-about-forming-new-pro-eu-centrist-party-reported-at-westmi/) in the event Andrea Leadsom should win the Conservative leadership.  With 172 Labour MPs unhappy with Corbyn and at least 199 Conservatives preferring May over Leadsom, this party would theoretically have an immediate Commons majority despite never having fought an election.
+  * SNP (54 seats): **little airtime** after EU leaders [rebuffed initial advances](http://www.telegraph.co.uk/news/2016/07/09/snp-mep-scotland-should-get-special-eu-deal-because-uk-not-a-cou/) from Nicola Sturgeon (SNP leader) to allow an independent Scotland to remain in the EU.  The National Scot talks about [currency divorce from rUK](http://www.thenational.scot/news/treasury-mandarin-who-warned-against-currency-union-now-says-scotland-leaving-uk-is-now-a-golden-opportunity.19786http://www.thenational.scot/news/treasury-mandarin-who-warned-against-currency-union-now-says-scotland-leaving-uk-is-now-a-golden-opportunity.19786) (&#8216;remaining UK&#8217;) and the Herald Scotland has Sturgeon [commenting on the Conservative leadership race](http://www.heraldscotland.com/news/14609476.Nicola_Sturgeon__Theresa_May_s_refusal_to_guarantee_EU_nationals_the_right_to_remain_is_a_disgrace_that_shames_her/?ref=mr&lp=2).
+  * LIB/UKIP/GRN/UDP/SF/etc.: the Lib Dems will fight the next general election on [remaining in the EU](https://www.theguardian.com/commentisfree/2016/jun/30/lib-dems-brexit-general-election-eu-referendum-remain).  Nigel Farage has [resigned as UKIP leader](http://www.bloomberg.com/news/articles/2016-07-04/farage-resigns-as-ukip-leader-adding-to-brexit-political-turmoil) for the third time, saying &#8220;I now feel that I’ve done my bit&#8221;.
+
+# Culturally
+
+  * Serious xenophobic attacks [continue to rise](https://www.rt.com/uk/350223-racism-hate-crime-brexit/).  In the last week: 
+      * [Halal butcher firebombed](https://www.thesun.co.uk/news/1356778/halal-butcher-in-the-midlands-is-firebombed-as-tensions-run-high-after-brexit-vote/) in West Midlands.
+      * [Polish family home set on fire](http://www.plymouthherald.co.uk/polish-family-in-plymouth-terrorised-by-racist-arsonists-who-left-note-saying-go-home/story-29488159-detail/story.html) in Plymouth with letter stating &#8220;next be your family&#8221;.
+      * [Eastern European shop set on fire](http://www.edp24.co.uk/news/shop_owner_describes_arson_attack_at_eastern_european_store_in_magdalen_street_norwich_1_4608759) with family inside in Norwich.
+      * Envelopes containing white powder with &#8216;Paki filth&#8217; [sent to mosques across London](http://www.standard.co.uk/news/crime/racist-letters-containing-white-powder-sent-to-mosques-across-london-in-latest-islamophobic-hate-a3291406.html).  &#8216;Paki&#8217;, short for Pakistani, is commonly used as a racial slur against people of Pakistani or West Indian descent.
+
+# Economically
+
+  * Sterling has [fallen sharply to 31-year lows](http://uk.reuters.com/article/us-britain-markets-sterling-idUKKCN0ZN1R0) against USD.  The last time sterling was this low was immediately after Britain was forced out of the Exchange Rate Mechanism in 1985.
+  * Six commercial property firms [will not allow investors to withdraw their money](http://www.ibtimes.co.uk/property-funds-freeze-highlights-their-illiquid-nature-theres-no-need-panic-1569707) in the near term.  Commercial property sales take a long time to organise.  Sudden withdrawal of investment would force such funds to sell their assets for less than they are worth.
+  * There are conflicting reports of whether financial and technology companies are considering moving to other EU countries ([pro](http://uk.businessinsider.com/brexit-goldman-sachs-vodafone-moving-uk-jobs-eu-referendum-2016-6), [pro](http://uk.reuters.com/article/uk-britain-eu-fintech-idUKKCN0WA237), [con](http://www.express.co.uk/finance/city/685342/Banks-BACK-Britain-HSBC-Barclays-jobs-WON-T-move-to-Europe)).  An important factor is whether the UK will retain financial &#8220;[passporting rights](http://www.eu-facts.org.uk/arguments-by-topic/will-uk-financial-services-suffer-from-losing-passporting-rights-after-brexit/)&#8221; after Brexit.  The German Free Democratic Party has begun [advertising Berlin to business in London](http://www.thelocal.de/20160705/fdp-woos-votes-and-businesses-to-berlin-brexit).
+  * George Osborne has promised to [cut corporation tax to 15% (down from 20%)](http://www.bbc.co.uk/news/business-36699642) to make Britain more attractive to international businesses.

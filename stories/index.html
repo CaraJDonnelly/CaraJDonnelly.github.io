@@ -1,0 +1,43 @@
+---
+layout: page
+title: Stories
+date: 2014-04-27 13:21:10.000000000 +01:00
+type: page
+published: true
+status: publish
+header_navigation_weight: 2
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+  _wp_page_template: default
+author:
+  display_name: Cara Donnelly
+  first_name: Cara
+  last_name: Donnelly
+---
+<p><strong>Cara Donnelly</strong> is a writer, an improviser and comedienne.  She has contributed to Diva magazine and Persephone magazine and directed <a href="http://www.twoshadesofblue.org.uk/?p=855">Snow White: The Way Through The Woods</a>, an orchestral melodrama in verse.  She has given invited improvised comedy workshops to the <a href="http://www.thechameleons.co.uk/">London Chameleons</a> and <a href="http://theyoungactorscompany.com/">The Young Actors Company</a>, has a PhD in Astrophysics and has worked as a <a href="https://www.linkedin.com/profile/view?id=282667482">software developer</a>.  She plays <a href="https://en.wikipedia.org/wiki/Go_%28game%29">Go</a>.</p>
+
+<p>
+{% assign sorted_stories = site.stories | sort: 'story_weight' %}
+{% for story in sorted_stories %}
+  <h2>{{ story.title }}</h2>
+  {% if story.blurb %}
+    <p class="blurb">{{ story.blurb }}</p>
+  {% endif %}
+  <ol class="chapter">
+  {% assign sorted_chapters = story.chapters | sort: 'chapter_weight' %}
+  {% for chapter in sorted_chapters %}
+    <li>{{ chapter.title }}</li>
+    <ul>
+    {% assign sorted_subchapters = chapter.subchapters | sort: 'subchapter_weight' %}
+    {% for subchapter in sorted_subchapters %}
+      <li>
+        {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=chapter.chapter_id link_subchapter_id=subchapter.subchapter_id link_subchapter_title=subchapter.title %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+  </ol>
+{% endfor %}
+</p>

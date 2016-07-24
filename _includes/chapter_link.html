@@ -1,0 +1,19 @@
+{% for story in site.stories %}
+  {% if story.story_id != include.link_story_id %}
+    {% continue %}
+  {% endif %}
+  {% for chapter in story.chapters %}
+    {% if chapter.chapter_id != include.link_chapter_id %}
+      {% continue %}
+    {% endif %}
+    {% for subchapter in chapter.subchapters %}
+      {% if subchapter.subchapter_weight != 1 %}
+        {% continue %}
+      {% endif %}
+      <a href="/{{ site.baseurl }}stories/{{ include.link_story_id }}/{{ include.link_chapter_id }}/{{ subchapter.subchapter_id }}">
+       {{ include.link_subchapter_title }}
+      </a>
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
