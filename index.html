@@ -15,6 +15,10 @@ title: ToadWorld Fiction
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+          <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+        </div>
       </li>
     {% endfor %}
   </ul>

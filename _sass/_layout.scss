@@ -4,6 +4,7 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
+    background-color: $luxury-color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -207,6 +208,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    clear: both;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -239,4 +241,28 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Subchapters
+ */
+
+.subchapter-nav {
+  display: block;
+}
+
+.subchapter-nav .next {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.subchapter-nav .prev {
+  float: left;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+p.blurb {
+  font-style: italic;
 }

@@ -1,0 +1,38 @@
+<div class="subchapter-nav">
+{% for story in site.stories %}
+  {% if story.story_id != page.story_id %}
+    {% continue %}
+  {% endif %}
+  {% for chapter in story.chapters %}
+    {% if chapter.chapter_id != page.chapter_id %}
+      {% continue %}
+    {% endif %}
+    {% for subchapter in chapter.subchapters %}
+      {% if subchapter.subchapter_id != page.subchapter_id %}
+        {% continue %}
+      {% endif %}
+
+      {% assign prev_subchapter_chapter = chapter.chapter_id %}
+      {% if subchapter.is_first_subchapter %}
+        {% assign prev_subchapter_chapter = chapter.prev_chapter_id %}
+      {% endif %}
+      {% if subchapter.prev_subchapter_id %}
+        <div class="prev">
+        {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=prev_subchapter_chapter link_subchapter_id=subchapter.prev_subchapter_id link_subchapter_title="Previous page" %}
+        </div>
+      {% endif %}
+
+      {% assign next_subchapter_chapter = chapter.chapter_id %}
+      {% if subchapter.is_last_subchapter %}
+        {% assign next_subchapter_chapter = chapter.next_chapter_id %}
+      {% endif %}
+      {% if subchapter.next_subchapter_id %}
+        <div class="next">
+        {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=next_subchapter_chapter link_subchapter_id=subchapter.next_subchapter_id link_subchapter_title="Next page" %}
+        </div>
+      {% endif %}
+
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+</div>
