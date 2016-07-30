@@ -1,0 +1,6 @@
+{% for story in site.stories %}
+  {% if story.story_id != include.story_id %}
+    {% continue %}
+  {% endif %}
+  {% include story_chapters.html story=story %}
+{% endfor %}

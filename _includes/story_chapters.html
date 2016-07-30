@@ -1,0 +1,17 @@
+{% if include.story.blurb %}
+  <p class="blurb">{{ include.story.blurb }}</p>
+{% endif %}
+<ol class="chapter">
+{% assign sorted_chapters = include.story.chapters | sort: 'chapter_weight' %}
+{% for chapter in sorted_chapters %}
+  <li>{{ chapter.title }}</li>
+  <ul>
+  {% assign sorted_subchapters = chapter.subchapters | sort: 'subchapter_weight' %}
+  {% for subchapter in sorted_subchapters %}
+    <li>
+      {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=chapter.chapter_id link_subchapter_id=subchapter.subchapter_id link_subchapter_title=subchapter.title %}
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+</ol>

@@ -18,7 +18,7 @@
       {% endif %}
       {% if subchapter.prev_subchapter_id %}
         <div class="prev">
-        {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=prev_subchapter_chapter link_subchapter_id=subchapter.prev_subchapter_id link_subchapter_title="Previous page" %}
+        {% include subchapter_prev_link.html link_story_id=story.story_id link_chapter_id=prev_subchapter_chapter link_subchapter_id=subchapter.prev_subchapter_id %}
         </div>
       {% endif %}
 
@@ -28,7 +28,7 @@
       {% endif %}
       {% if subchapter.next_subchapter_id %}
         <div class="next">
-        {% include subchapter_link.html link_story_id=story.story_id link_chapter_id=next_subchapter_chapter link_subchapter_id=subchapter.next_subchapter_id link_subchapter_title="Next page" %}
+        {% include subchapter_next_link.html link_story_id=story.story_id link_chapter_id=next_subchapter_chapter link_subchapter_id=subchapter.next_subchapter_id %}
         </div>
       {% endif %}
 
