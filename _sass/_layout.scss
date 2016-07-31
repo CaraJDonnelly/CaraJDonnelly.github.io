@@ -255,21 +255,21 @@ div .subchapter-title {
   display: block;
   width: 100%;
   clear: both;
-  margin-bottom: 1em;
+  margin-bottom: $spacing-unit;
 }
 
 div .next {
   float: right;
-  margin-left: 1em;
+  margin-left: $spacing-unit;
   width: 25%;
-  margin-bottom: 1em;
+  margin-bottom: $spacing-unit;
 }
 
 div .prev {
   float: left;
-  margin-right: 1em;
+  margin-right: $spacing-unit;
   width: 25%;
-  margin-bottom: 1em;
+  margin-bottom: $spacing-unit;
 }
 
 p.blurb {
@@ -302,12 +302,22 @@ svg .subchapter-nav-button {
 }
 
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+.story-header-breathtaking-adventures {
+  font-family: 'Rock Salt', cursive;
+}
+
+.chapter-title {
+  font-size: 200%;
+}
+
+.subchapter-title {
+  font-size: 150%;
+}
+
 svg text {
   font-family: 'Rock Salt', cursive;
-  font-style:normal;
-  font-variant:normal;
   font-weight:bold;
-  font-stretch:normal;
   line-height:125%;
   letter-spacing:0px;
   word-spacing:0px;

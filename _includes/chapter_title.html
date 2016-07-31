@@ -1,0 +1,11 @@
+{% for story in site.stories %}
+  {% if story.story_id != include.story_id %}
+    {% continue %}
+  {% endif %}
+  {% for chapter in story.chapters %}
+    {% if chapter.chapter_id != include.chapter_id %}
+      {% continue %}
+    {% endif %}
+    Chapter {{ chapter.chapter_weight }}: {{ chapter.title }}
+  {% endfor %}
+{% endfor %}

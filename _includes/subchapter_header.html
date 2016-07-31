@@ -1,5 +1,4 @@
 {% include svg_filters.svg %}
 {% include subchapter_link_bar.html %}
-<div class="subchapter-title">
-  {% include assets/{{include.story_id}}/title.svg %}
-</div>
+{% include story_title.html story_id=page.story_id %}
+
