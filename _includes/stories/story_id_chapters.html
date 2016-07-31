@@ -2,5 +2,5 @@
   {% if story.story_id != include.story_id %}
     {% continue %}
   {% endif %}
-  {% include story_chapters.html story=story %}
+  {% include stories/story_chapters.html story=story %}
 {% endfor %}

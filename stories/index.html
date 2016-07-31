@@ -34,6 +34,6 @@ author:
 
 {% assign sorted_stories = site.stories | sort: 'story_weight' %}
 {% for story in sorted_stories %}
-  {% include story_chapters.html story=story %}
+  {% include stories/story_chapters.html story=story %}
 {% endfor %}
 </div>

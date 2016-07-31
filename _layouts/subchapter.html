@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-{% include subchapter_header.html story_id=page.story_id %}
+{% include stories/subchapter_header.html story_id=page.story_id %}
 
 <article class="post">
   <hr />
   <header class="post-header story-header-{{ page.story_id }}">
     <h1 class="chapter-title">
-      {% include chapter_title.html story_id=page.story_id chapter_id=page.chapter_id %}
+      {% include stories/chapter_title.html story_id=page.story_id chapter_id=page.chapter_id %}
     </h1>
     <h2 class="subchapter-title">
-      {% include subchapter_title.html story_id=page.story_id chapter_id=page.chapter_id subchapter_id=page.subchapter_id%}
+      {% include stories/subchapter_title.html story_id=page.story_id chapter_id=page.chapter_id subchapter_id=page.subchapter_id%}
     </h2>
   </header>
 
@@ -20,4 +20,4 @@ layout: default
 
 </article>
 
-{% include subchapter_footer.html %}
+{% include stories/subchapter_footer.html %}
