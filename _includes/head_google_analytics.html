@@ -36,7 +36,8 @@
 
     // Track the aticle load
     if (!debugMode) {
-        ga('send', 'event', 'Reading', 'ArticleLoaded', pageTitle, {'nonInteraction': 1});
+        ga('send', 'event', 'Reading', 'ArticleLoaded', pageTitle,
+           {'nonInteraction': 1});
     } else {
         alert('The page has loaded. Woohoo.');    
     }
@@ -52,7 +53,8 @@
             scrollStart = currentTime.getTime();
             timeToScroll = Math.round((scrollStart - beginning) / 1000);
             if (!debugMode) {
-                ga('send', 'event', 'Reading', 'StartReading', pageTitle, timeToScroll, {'metric1' : timeToScroll});
+                ga('send', 'event', 'Reading', 'StartReading', pageTitle,
+                   timeToScroll, {'nonInteraction': 1, 'metric1' : timeToScroll});
             } else {
                 alert('started reading ' + timeToScroll);
             }
@@ -70,7 +72,8 @@
                 } else {
                     ga('set', 'dimension5', 'Reader'); 
                 }
-                ga('send', 'event', 'Reading', 'ContentBottom', pageTitle, timeToContentEnd, {'metric2' : timeToContentEnd});
+                ga('send', 'event', 'Reading', 'ContentBottom', pageTitle,
+                   timeToContentEnd, {'nonInteraction': 1, 'metric2' : timeToContentEnd});
             } else {
                 alert('end content section '+timeToContentEnd);
             }
@@ -83,7 +86,8 @@
             end = currentTime.getTime();
             totalTime = Math.round((end - scrollStart) / 1000);
             if (!debugMode) {
-                ga('send', 'event', 'Reading', 'PageBottom', pageTitle, totalTime, {'metric3' : totalTime});
+                ga('send', 'event', 'Reading', 'PageBottom', pageTitle,
+                   totalTime, {'nonInteraction': 1, 'metric3' : totalTime});
             } else {
                 alert('bottom of page '+totalTime);
             }
