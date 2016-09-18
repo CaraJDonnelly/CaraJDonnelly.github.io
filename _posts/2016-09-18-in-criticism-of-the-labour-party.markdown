@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The true threat facing the Labour Party"
-date:   2016-09-19 00:00:00 +0000
+title:  "In criticism of the Labour Party"
+date:   2016-09-18 00:00:00 +0100
 categories: labor politics uk corbyn johnson
 ---
 
