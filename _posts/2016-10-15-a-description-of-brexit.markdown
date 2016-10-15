@@ -12,7 +12,7 @@ Do you think you will feel safe in Britain in ten years time?
 Physical safety
 -------------------
 
-'Safe' includes safety walking down the street.  There were ~40% more racially or religiously motivated offences in July 2016 than July 2015([ref][1]).  The rate of offences dropped back down to previous levels by the end of August.  The Tories have recently announced they want the NHS to function without foreign doctors([ref][2]), and that foreign children must be registered by their schools with the Department of Education from this autumn([ref][3]).  They announced and retracted plans to name-and-shame businesses who employed too high a percentage of foreigners ([ref][4])
+'Safe' includes safety walking down the street.  There were ~40% more racially or religiously motivated offences in July 2016 than July 2015([ref][1]).  The rate of offences dropped back down to previous levels by the end of August.  The Tories have recently announced they want the NHS to function without foreign doctors([ref][2]), and that foreign children must be registered by their schools with the Department of Education from this autumn([ref][3]).  They announced and retracted plans to name-and-shame businesses who employed too high a percentage of foreigners ([ref][4]).
 
 In ten years time, do you expect to feel safe walking down the street?  If yes, and you are white British, do you expect this to hold true for people of colour or white non-British people?  What is the breakdown of this feeling of safety based on religion and sexuality?
 
@@ -47,7 +47,7 @@ I see two options: First, I can trust and hope that Britain will pull back from 
 
 How do you feel?  Am I overreacting?
 
-[1]: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/559319/hate-crime-1516-hosb1116.pdf Annex A
+[1]: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/559319/hate-crime-1516-hosb1116.pdf
 
 [2]: http://www.telegraph.co.uk/news/2016/10/03/jeremy-hunt-nhs-will-become-self-sufficient-and-no-longer-rely-o/
 
