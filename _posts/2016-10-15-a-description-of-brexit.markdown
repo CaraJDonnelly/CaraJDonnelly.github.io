@@ -41,7 +41,7 @@ Actions to take
 
 I am bewildered.  There are no elections soon, and anyway the country appears to support our current path.  The Labour Party has at least finished its most recent leadership crisis.  Perhaps there will be some traction there soon.
 
-Parliament is opposed to these changes and there are two cases arguing that Parliament must be given a binding vote on invoking Article 50[18] which will formally begin the process of the UK leaving the EU.  I have added to my to-do list to donate to these cases.
+Parliament is opposed to these changes and there are two cases arguing that Parliament must be given a binding vote on invoking Article 50([ref][18]) which will formally begin the process of the UK leaving the EU.  I have added to my to-do list to donate to these cases.
 
 I see two options: First, I can trust and hope that Britain will pull back from the brink of madness, or that London at least will be insulated from the worst of it.  Second, I can take a break from the UK until things calm down.  Third, I can do a mixture, and define a set of socioeconomic indicators that I will track that will result in me leaving the country.
 
