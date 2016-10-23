@@ -12,6 +12,11 @@
   <script src="/js/cached/jquery-3.1.0.min.js"></script>
   {% include head_mailchimp.html %}
   {% if jekyll.environment == 'production' %}
-    {% include head_google_analytics.html %}
+    {% if include.page_prefix %}
+      {% assign page_prefix = include.page_prefix %}
+    {% else %}
+      {% assign page_prefix = '999' %}
+    {% endif %}
+    {% include head_google_analytics.html page_prefix=page_prefix %}
   {% endif %}
 </head>
