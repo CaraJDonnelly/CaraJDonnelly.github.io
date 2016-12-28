@@ -50,7 +50,7 @@ Let's say Alice hates cleaning the toilet and Bob hates vacuuming.  Cara doesn't
 [![Two pieces of card each with one chore.  The first has a note 'Alice, Alice, Cara' in the top left.  The second has a note 'Bob, Bob, Cara' in the top left.](/timeless-choreboard/images/choreboard3_small.png "Two cards representing a trade between Alice and Bob.")](/timeless-choreboard/images/choreboard3.png)
 {: style="text-align: center;"}
 
-Note that Cara still does each of these chores 1/3 of the time.  She wasn't affected by Alice and Bob's trade.
+Note that Cara still does each of these chores 1/3 of the time.  She wasn't affected by Alice and Bob's trade.  Also, I drew a little up arrow below the first 'Bob' and 'Alice' on each card to show the card should be the right way up the first time they do these chores, and a little down arrow below the second time their name appears.  On the left hand card in the photo you can see that Bob (+ up arrow) has reminded himself to buy a new toothbrush every so often.
 
 (Check: count how many times everyone's name appears on all of the cards.  Cards without names count once for everyone and can be ignored.  If everyone's name appears the same number of times, the trades are fair.)
 
