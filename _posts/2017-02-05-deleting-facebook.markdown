@@ -49,7 +49,11 @@ I'm not a security professional, so I'm going to tell you what I'm doing while m
 
 **More Privacy**
 
-All of any security effort is a tradeoff.  The things I do above are easy.  Quitting Facebook will be hard.  The Electronic Frontier Foundation gives advice on how to stay safe online.  I'm going to have a think about how best to ask people to contact me.  My email addresses will stay current. 
+All of any security effort is a tradeoff.  The things I do above are easy.  Quitting Facebook will be hard.  The Electronic Frontier Foundation gives advice on how to stay safe online.  I'm going to have a think about how best to ask people to contact me.  My email addresses will stay current.
+
+**Update 2017-02-06**
+
+Joe Wass has written something similar [over on his blog][8], and in it he links to [Vicki Boykis' analysis][9].  I should also mention that deleting my Facebook account means deleting my WhatsApp account.
 
 [1]: https://motherboard.vice.com/en_us/article/how-our-likes-helped-trump-win
 [2]: https://www.facebook.com/help/152637448140583?helpref=uf_permalink
@@ -58,3 +62,5 @@ All of any security effort is a tradeoff.  The things I do above are easy.  Quit
 [5]: https://www.eff.org/privacybadger
 [6]: https://www.ovpn.se/en
 [7]: https://www.torproject.org/projects/torbrowser.html.en
+[8]: http://blog.afandian.com/2017/01/why-i-am-giving-up-on-facebook/
+[9]: https://veekaybee.github.io/facebook-is-collecting-this/
