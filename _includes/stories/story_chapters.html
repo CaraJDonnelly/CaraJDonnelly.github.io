@@ -1,5 +1,9 @@
 {% include stories/subchapter_title.html story_id=include.story.story_id %}
 
+{% if include.story.title %}
+  <h2>{{ include.story.title }}</h2>
+{% endif %}
+
 {% if include.story.blurb %}
   <p class="blurb">{{ include.story.blurb }}</p>
 {% endif %}
