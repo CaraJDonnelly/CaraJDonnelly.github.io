@@ -1,2 +1,8 @@
+# Don't index Christmas stories.
 User-agent: *
 Disallow: /christmas/
+
+# Disable Wayback Machine.
+User-agent: ia_archiver
+User-agent: archive.org_bot
+Disallow: /
