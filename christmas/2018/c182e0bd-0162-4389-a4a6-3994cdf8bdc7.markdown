@@ -1,0 +1,46 @@
+---
+layout: default
+title: Christmas 2018
+---
+Happy Christmas!
+
+This is this year's retrospective (excluding any romantic relationship(s) on privacy grounds).
+In the past I've done a collection of stories or an essay, and this year I don't have spare energy.
+
+# Summary of 2018/2019
+
+This year was productive professionally and rough personally.
+I am watching the re-emergence of extremism and authoritarianism across the globe with worry.
+
+Next year I will make a firmer distinction of work and life.
+
+# What went well
+
+*    Survived another year.
+*    Joined the British Computer Society at professsional grade; I may now use the post-nominal 'MBCS'; I should now follow the [BCS Code of Conduct](https://www.bcs.org/category/6030).
+*    Got promoted to Senior SRE.
+*    Broadly maintained my mental health.
+*    Travelled to 4 other countries.
+*    Read about philosophical and professsional ethics, particularly computer ethics; trying to pay that forwards.
+*    Was a contributing author to the On-Call chapter of the bestselling [Site Reliability Workbook](http://shop.oreilly.com/product/0636920132448.do).
+
+# What went badly
+
+*    My apartment was flooded, causing 3 months of stress.
+*    I finished losing 4-5 friendships (timescale: 5 years), some of which were key friendships.
+*    I wrote little.
+*    Work was stressful (N.B. contributed to personal growth).
+*    Diet needs work; hopefully under control now.
+*    Still not found a reliable doctor.
+
+# What could have gone worse
+
+*    I could have lost more friendships or not finished losing those friendships.
+
+# What I want to do differently
+
+*    I'll carry on with communication reading. This year I read `Never Split The Difference` by Voss and Raz, and tried to read `Crucial Conversations` by Patterson et al. (needs an editor who is not an executive of a Fortune 500 company) and `Ten Steps to Better Living` by some-psychologist (needs an editor, any editor, anyone, please, for Goodness' sake, someone please edit this crap -- even Searching the title with Google doesn't bring up the book).  Despite the low hit rate, I don't think I need to change up my reading strategy here.
+*    I want to get comfortable saying "Hey, I'm not comfortable with that.".
+*    Next year I'd like to write more.  I'll aim for 25 evenings in 2019 where I spend some time writing fiction.
+*    Without the multiple bad surprises of 2018, I can go back to a more systematic work/life balancing.
+*    Exercising is now fine during summer and needs tuning during winter; this year I will set more aggressive dates for both starting and stopping cycling workwards.
