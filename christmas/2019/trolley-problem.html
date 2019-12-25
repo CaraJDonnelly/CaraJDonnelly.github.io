@@ -523,7 +523,14 @@ The police officer blinks again.](else:)[&quot;I know it sounds wrong, but I did
 
 (live: ($lumberghDelay))[(stop:)[
 -&gt; [[continue|SHOW POLICE OFFICER TPS REPORT MEMO II]]
-]]</tw-passagedata><tw-passagedata pid="66" name="BABBLE" tags="" position="950,850" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="67" name="SHOW POLICE OFFICER TPS REPORT MEMO II" tags="" position="775,650" size="100,100">&quot;What&#39;s happening?&quot; you say.
+]]</tw-passagedata><tw-passagedata pid="66" name="BABBLE" tags="" position="950,850" size="100,100">You babble, and incriminate yourself in several crimes.
+
+(set: $yearsSentenced to 2*$deaths)(set: $yearsServed to $deaths)You are sentenced to jail for $yearsSentenced years.  Eventually, with assistance from the Rehabilitation for Addicted Prisoners Trust, you are released after only $yearsServed years.  You stubmle home to your old bed.
+
+(set: $daysLived to $daysLived + $yearsServed*365)
+(set: $workDaysMissed to $yearsServed*365)
+(set: $firedByLumbergh to true)
+(if: $daysLived &gt; 30*365)[[SLEEP ONE LAST TIME|ENTER DARKNESS]](else:)[[SLEEP|MISS WORK]]</tw-passagedata><tw-passagedata pid="67" name="SHOW POLICE OFFICER TPS REPORT MEMO II" tags="" position="775,650" size="100,100">&quot;What&#39;s happening?&quot; you say.
 
 (live: ($lumberghDelay))[(stop:)[
 -&gt; [[continue|SHOW POLICE OFFICER TPS REPORT MEMO III]]
