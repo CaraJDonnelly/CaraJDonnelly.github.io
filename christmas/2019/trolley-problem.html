@@ -55,7 +55,7 @@ It could be anywhere that is nowhere -- Braintree Freeport, Sidcup, or even a su
 -&gt; EAST is [[INITECH]]
 -&gt; SOUTHEAST is [[DUMPSTERVILLE]]
 -&gt; SOUTH is [[CHOTCHKIE&#39;S]]
-</tw-passagedata><tw-passagedata pid="3" name="ABUSURDIST RAILWAY TRACKS" tags="" position="1200,50" size="100,100">(unless: $knowledge contains &quot;about absurdism&quot;)[(set: $knowledge to $knowledge + (a: &quot;about absurdism&quot;))](set: $recentDeaths to 1)
+</tw-passagedata><tw-passagedata pid="3" name="ABUSURDIST RAILWAY TRACKS" tags="" position="1200,50" size="100,100">(unless: $knowledge contains &quot;about absurdism&quot;)[(set: $knowledge to $knowledge + (a: &quot;about absurdism&quot;))](set: $recentDeaths to 1)(set: $deaths to ($deaths + $recentDeaths))
 Coming close to KIERKEGAARD makes the world swim in front of your eyes.  It stabilizes, and everything has changed.  You stare, bewildered, at the railway tracks. Present are: four people,(if: $eatenCherryPie)[ and] two animals(unless: $eatenCherryPie)[, and one piece of food, a cherry pie]. You recognise one of the people: your mother&#39;s urologist. (if: $knowledge contains &quot;about the Powerderham-Menheniots&quot;)[One of the people is dead, and the other is crying over the body.](else:)[You see Hosanna Powerderham-Menheniot crying over the body of her father.] The cat, Mrs. Gulbrantdsen&#39;s tabby cat Tabitha, sniffs the still-warm corpse, while the mouse scurries about aimlessly.
 
 -&gt; (if: $knowledge contains &quot;about the Powerderham-Menheniots&quot;)[[[COMFORT Hosanna Powerderham-Menheniot|COMFORT the UNKNOWN WOMAN]]](else:)[[COMFORT the UNKNOWN WOMAN]]
