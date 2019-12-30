@@ -15,11 +15,7 @@
 # (live: ($introDelay))[(stop:)[The]] (live: (2*$introDelay))[(stop:)[Iterated]]
 # (live: (3*$introDelay))[(stop:)[Trolley]] (live: (4*$introDelay))[(stop:)[Problem]]
 
-<<<<<<< HEAD
 (live: (6*$introDelay))[(stop:)Your name is $yourName.]
-=======
-(live: (6*$introDelay))[(stop:)Your name is PETER.]
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 (live: (8*$introDelay))[(stop:)You work at INITECH.]
 
@@ -51,10 +47,6 @@ Happy Christmas! This Christmas game made with Twinery.org.
 (set: $firedByLumbergh to false)
 &lt;!--Police variables--&gt;
 (set: $lawyerRequested to false)
-<<<<<<< HEAD
-=======
-(set: $yourName to &quot;PETER GIBBONS&quot;)
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 (set: $scanlonCalledCops to false)</tw-passagedata><tw-passagedata pid="2" name="INDUSTRIAL PARK" tags="" position="150,50" size="100,100">It&#39;s 9AM, and you are at the INDUSTRIAL PARK.
 
 It could be anywhere that is nowhere -- Braintree Freeport, Sidcup, or even a suburb of San Francisco in California.  There&#39;s the usual bright paint now slightly faded, a few office buildings with business signs stuck up on the doorways and nowhere else, some cars parked in some bays.
@@ -279,11 +271,7 @@ There are some PHILOSOPHERS here: (if: $philosophers&#39;s length is 0)[nobody](
 
 (live: (9*$philosophyDelay))[(stop:)[You thank KIERKEGAARD and continue on your way.]]
 
-<<<<<<< HEAD
 (live: (10*$philosophyDelay))[(stop:)[-&gt; [[continue|The Trolley Problem]]]]
-=======
-(live: (10*$philosophyDelay))[(stop:)[-&gt;[[continue|The Trolley Problem]]]]
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 (set: $studiedAnyPhilosophy to true)(set: $philosophers to ($philosophers - (a: &quot;KIERKEGAARD&quot;)))
 </tw-passagedata><tw-passagedata pid="33" name="CALL EMERGENCY SERVICES" tags="" position="1150,425" size="100,100">You run up the embankment of the RAILWAY TRACKS to a phone box.  The voice on the other end speaks.
 
@@ -317,11 +305,7 @@ You give your name, location and explain that (if: $recentDeaths is 1)[a person 
 
 Nothing happens.  The TROLLEY continues to hurtle down the hill towards you, barely ten seconds away.  Surely KIERKEGAARD didn&#39;t give you just a stick, did he?  You feel ... absurd.
 
-<<<<<<< HEAD
 Is there something here you might be missing?  Think carefully.
-=======
-Is there something here you might be missing?
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 -&gt; [[DISCARD STAFF and STEP OFF TRACK|The Trolley Problem]]
 -&gt; (live: 10s)[(stop:)[[LEAP to FAITH]]]
@@ -342,11 +326,7 @@ The TROLLEY hits you.  You don&#39;t get to find out the answer.
 
 -&gt; [[ENTER DARKNESS]]
 (set: $deaths to ($deaths + 1))
-<<<<<<< HEAD
 (set: $fledLeapOfFaith to false)</tw-passagedata><tw-passagedata pid="38" name="CONTEMPLATE LIFE" tags="" position="1775,150" size="100,100">You bow your head in contemplation.  You look at your feet.  There is a molehill between them, underneath the tracks.
-=======
-(set: $fledLeapOfFaith to false)</tw-passagedata><tw-passagedata pid="38" name="CONTEMPLATE LIFE" tags="" position="1775,150" size="100,100">You bow your head in contemplation.  You look at your feet.  There is a molehill between them, undertneath the tracks.
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 You can feel the TROLLEY rumbling on the rails.  It&#39;s moving far faster than any designer intended, and it is bucking off the rails as it goes down the bumpy hill.
 
@@ -376,11 +356,8 @@ You have six seconds, time for one deep breath.(live: 4s)[(stop:)[(if: $knowledg
 &lt;!--Player only gets one try at LEAP OF FAITH--&gt;
 (set: $fledLeapOfFaith to false)
 (set: $studiedAnyPhilosophy to false)
-<<<<<<< HEAD
 (set: $acceptedAbsurdism to false)
 (set: $yourName to &quot;PETER GIBBONS&quot;)
-=======
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 &lt;!--Save files--&gt;
 (if: $saveProgress is 0)[(set: $saveProgress to (confirm: &quot;Can this game set a save-game cookie to store your game progess? Pressing &#39;Cancel&#39; will still let you play the game, just if you close your window your game progress will be lost&quot;))]
 (if: $saveProgress and ((saved-games:) contains &quot;GameProgress&quot;))[(load-game:&quot;GameProgress&quot;)]</tw-passagedata><tw-passagedata pid="41" name="Good life" tags="" position="1925,300" size="100,100">Wow!
@@ -439,19 +416,11 @@ Your phone rings once and you unplug it.
 [[NEW DAY]]
 (set: $workDaysMissed to ($workDaysMissed + 1))</tw-passagedata><tw-passagedata pid="49" name="JOB CENTRE" tags="" position="500,450" size="100,100">You enter the bright green plastic interior of the Job Centre.(set: _jobseekerLimit to 3)
 
-<<<<<<< HEAD
 There is a low hum of conversations.  You wait for an adviser, Angela.(set: _interviewFreshness to ($daysLived - $latestInterviewDay))
 
 &quot;To draw Job Seeker&#39;s allowance you need to be seeking a job.  You last interviewed (if: _interviewFreshness is 0)[today](if: _interviewFreshness is 1)[yesterday](if: _interviewFreshness &gt; 1)[_interviewFreshness days ago], so you do(if _interviewFreshness &gt; _jobseekerLimit)[ not] qualify for JobSeekers allowance.  You&#39;ll need to keep interviewing at least once every _jobseekerLimit days until you find a job.&quot;
 
 (if: _interviewFreshness &lt;= _jobseekerLimit)[You collect the JobSeekers allowance.(set: $jobseekerAllowanceFreshness to $daysLived)]
-=======
-There is a low hum of conversations.  You wait for an adviser, Angela.(set: _intervewFreshness to ($daysLived - $latestInterviewDay))
-
-&quot;To draw Job Seeker&#39;s allowance you need to be seeking a job.  You last interviewed (if: _interviewFreshness is 0)[today](if: _interviewFreshness is 1)[yesterday](if: _interviewFreshness &gt; 1)[_interviewFreshness days ago), so you do(if _interviewFreshness &gt; _jobseekerLimit)[ not] qualify for JobSeekers allowance.  You&#39;ll need to keep interviewing at least once every _jobseekerLimit days until you find a job.&quot;
-
-(if _interviewFreshness &lt;= _jobseekerLimit)[You collect the JobSeekers allowance.(set: $jobseekerAllowanceFreshness to $daysLived)]
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 &quot;With your database indexing skills you would be over-qualified for most jobs.  But there is one company in the area that looks like a match.&quot;
 
@@ -488,19 +457,11 @@ You flip the RAILWAY SWITCH.(set: $switchSetToFive to (not $switchSetToFive))  I
 -&gt; [[continue|The Trolley Problem]]
 (set: $touchedSwitch to true)</tw-passagedata><tw-passagedata pid="57" name="footer" tags="footer" position="775,0" size="100,100">(replace: &quot;VARSWITCHSTATE&quot;)[(if: $switchSetToFive)[HIT FIVE PEOPLE](else:)[HIT ONE PERSON]]</tw-passagedata><tw-passagedata pid="58" name="header" tags="header" position="650,0" size="100,100">(if: $saveProgress)[(save-game:&quot;GameProgress&quot;)]</tw-passagedata><tw-passagedata pid="59" name="EMERGENCY SERVICES" tags="" position="1150,550" size="100,100">First, a (if: $emergencyService is &quot;FIRE&quot;)[fire engine](else:)[(if: $emergencyService is &quot;POLICE&quot;)[a squad car](else:)[an ambulance]] arrives.  They radio Control to call National Rail to close off the tracks.
 
-<<<<<<< HEAD
 The first responders examine the (if: $deaths is 1)[dead body](else:)[$deaths dead bodies] with (if: $deaths &lt; 3)[professional detachment](else:)[(if: $deaths &lt; 10)[alarm](else:)[horror]].  They radio Control for (if: $emergencyService is &quot;FIRE&quot;)[a squad car and an ambulance](else:)[(if: $emergencyService is &quot;POLICE&quot;)[an ambulance](else:)[a squad car]].
 
 The police tape off the area while the ambulance crew examine the (if: $deaths is 1)[dead body](else:)[$deaths dead bodies].  After what feels like an eternity, a police officer comes over.
 
 &quot;$yourName,&quot; she says.  You nod.  &quot;Did you witness the incident?&quot;  You nod again.
-=======
-The first responders examine the (if: $deaths is 1)[dead body](else:)[$deaths dead bodies] with (if: $deaths &lt; 3)[professional detachment](else:)[(if: $deaths &lt; 10)[alarm](else:)[horror]].  They radio Control for the (if: $emergencyService is &quot;FIRE&quot;)[a squad car and an ambulance](else:)[(if: $emergencyService is &quot;POLICE&quot;)[an ambulance](else:)[a squad car]].
-
-The police tape off the area while the ambulance crew examine the (if: $deaths is 1)[dead body](else:)[$deaths dead bodies].  After what feels like an eternity, a police officer comes over.
-
-&quot;Peter Gibbons,&quot; she says.  You nod.  &quot;Did you witness the incident?&quot;  You nod again.
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 (if: $touchedSwitch)[&quot;I&#39;m going to need you to come down to the station.&quot;
 
@@ -516,21 +477,13 @@ The police officer starts a tape recorder and begins the interview.
 
 You explain that you(if: $firedByLumbergh)[ used to] work at INITECH(if: $knowledge contains &quot;how to file a TPS report&quot;)[, and that you are well versed in proper TPS report filing procedures].  You explain were on your way to (if: $firedByLumbergh)[the Job Centre](else:)[work] when you heard the sound of squealing brakes and went to investigate.  You saw the runaway TROLLEY and called the emergency services. 
 
-<<<<<<< HEAD
 (if: $touchedSwitch)[&quot;Why did we find your fingerprints on the SWITCH?&quot;](else:)[(if: $scanlonCalledCops)[&quot;Why did we get a call almost thirty minutes sooner from a Mr. Scanlon?&quot;](else:)[&quot;Why did you wait so long to call?&quot;]]
-=======
-(if: $touchedSwitch)[&quot;Why did we find your fingerprints on the SWITCH?&quot;](else:)[(if: $scanlonCalledCops)[&quot;Why did we get a call almost thirty minutes sooner from a Mr. Scanlon?&quot;](else:)[&quot;Why did you wait so long to call?&quot;]
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 The police officer leans in close.
 
 (if: $deaths is not $recentDeaths)[&quot;...and why have our forensic specialists found evidence that some of your victims have been dead for multiple days?&quot;]
 
-<<<<<<< HEAD
 -&gt; [[PANIC]]</tw-passagedata><tw-passagedata pid="62" name="PANIC" tags="" position="1025,675" size="100,100">With the police officer staring deep into your eyes, you (if: $lawyerRequested or $acceptedAbsurdism)[take a deep breath and think.(if: $lawyerRequested)[  Your lawyer gently clears their throat.]](else:)[panic.]
-=======
--&gt; [[PANIC]]</tw-passagedata><tw-passagedata pid="62" name="PANIC" tags="" position="1025,675" size="100,100">With the police officer staring deep into your eyes, you (unless: $laywerRequested or $acceptedAbsurdism)[panic.](else:)[take a deep breath and think.(if: $lawyerRequested)[  Your lawyer gently clears their throat.]]
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 You are carrying:
 (for: each _item, ...$inventory) [* _item]
@@ -538,17 +491,10 @@ You are carrying:
 You know:
 (for: each _item, ...$knowledge) [* _item] 
 
-<<<<<<< HEAD
 (if: ($knowledge contains &quot;contractualism&quot;) and not $lawyerRequested)[-&gt; [[Use CONTRACTUALISM on POLICE OFFICER]]]
 (if: ($inventory contains &quot;TPS Reports Memo&quot;))[-&gt; [[SHOW POLICE OFFICER TPS REPORT MEMO]]]
 (if: ($knowledge contains &quot;about absurdism&quot;) and not $acceptedAbsurdism)[-&gt; [[CLAIM REALITY is ABSURD]]]
 (if: $knowledge contains &quot;Arendtian praxis&quot;)[-&gt; [[Use ARENDT&#39;s THEORY OF ACTION on POLICE OFFICER]]](else:)[-&gt; [[BABBLE]]]</tw-passagedata><tw-passagedata pid="63" name="Use CONTRACTUALISM on POLICE OFFICER" tags="" position="800,775" size="100,100">This is a bad situation.  After all, (if: $deaths == 1)[a person is](else:)[$deaths people are] dead(if: $touchedSwitch)[, and your fingerprints are at the scene].  Is there anything you can reasonably say at this point? You clear your throat.
-=======
-(if: &quot;contractualism&quot; in $knowledge and not $lawyerRequested)[-&gt; [[Use CONTRACTUALISM on POLICE OFFICER]]]
-(if: &quot;TPS Reports Memo&quot; in $inventory)[-&gt; [[SHOW POLICE OFFICER TPS REPORT MEMO]]]
-(if: &quot;absurdism&quot; in $knowledge and not $acceptedAbsurdism)[-&gt; [[CLAIM REALITY is ABSURD]]]
-(if: &quot;Arendtian praxis&quot; in $knowledge)[-&gt; [[Use ARENDT&#39;s THEORY OF ACTION on POLICE OFFICER]]](else:)[-&gt; [[BABBLE]]]</tw-passagedata><tw-passagedata pid="63" name="Use CONTRACTUALISM on POLICE OFFICER" tags="" position="800,775" size="100,100">This is a bad situation.  After all, (if: $deaths == 1)[a person is](else:)[$deaths people are] dead(if: $touchedSwitch)[, and your fingerprints are at the scene].  Is there anything you can reasonably say at this point? You clear your throat.
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 &quot;I would like my lawyer present.&quot;
 
@@ -580,19 +526,12 @@ The police officer blinks again.](else:)[&quot;I know it sounds wrong, but I did
 -&gt; [[continue|SHOW POLICE OFFICER TPS REPORT MEMO II]]
 ]]</tw-passagedata><tw-passagedata pid="66" name="BABBLE" tags="" position="950,850" size="100,100">You babble, and incriminate yourself in several crimes.
 
-<<<<<<< HEAD
 (set: $yearsSentenced to 2*$deaths)(set: $yearsServed to $deaths)You are sentenced to jail for $yearsSentenced years.  Eventually, with assistance from the Rehabilitation for Addicted Prisoners Trust, you are released after only $yearsServed years.  You stumble home to your old bed.
-=======
-(set: $yearsSentenced to 2*$deaths)(set: $yearsServed to $deaths)You are sentenced to jail for $yearsSentenced years.  Eventually, with assistance from the Rehabilitation for Addicted Prisoners Trust, you are released after only $yearsServed years.  You stubmle home to your old bed.
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 (set: $daysLived to $daysLived + $yearsServed*365)
 (set: $workDaysMissed to $yearsServed*365)
 (set: $firedByLumbergh to true)
-<<<<<<< HEAD
 (set: $jobseekerAllowanceFreshness to $daysLived)
-=======
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 (if: $daysLived &gt; 30*365)[[SLEEP ONE LAST TIME|ENTER DARKNESS]](else:)[[SLEEP|MISS WORK]]</tw-passagedata><tw-passagedata pid="67" name="SHOW POLICE OFFICER TPS REPORT MEMO II" tags="" position="775,650" size="100,100">&quot;What&#39;s happening?&quot; you say.
 
 (live: ($lumberghDelay))[(stop:)[
@@ -635,11 +574,7 @@ You and four of those friends were crossing the RAILWAY TRACKS when -- well, you
 
 Her eyes widen as she takes in the RAILWAY TRACKS, and the TROLLEY that will VARSWITCHSTATE.
 
-<<<<<<< HEAD
 &quot;//Verdammte Scheiße//!&quot; HANNAH ARENDT jumps up and shoulders past you.  &quot;Out of my way! We can save that (if: $switchSetToFive)[group of people](else:)[woman]!&quot;
-=======
-&quot;//Verdammte Scheiße//!&quot; HANNAH ARENDT jumps up and shoulders past you.  &quot;Out of my way! We can save that woman!&quot;
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 (if: $switchSetToFive)[Over her shoulder HANNAH ARENDT shouts at you: &quot;Flip the switch!&quot;]
 
@@ -656,11 +591,7 @@ You flip the RAILWAY SWITCH.(set: $switchSetToFive to (not $switchSetToFive))  I
 -&gt; [[CONTINUE ASKING ARENDT about PRAXIS]]
 (set: $touchedSwitch to true)</tw-passagedata><tw-passagedata pid="74" name="CONTINUE ASKING ARENDT about PRAXIS" tags="" position="1475,275" size="100,100">You follow HANNAH ARENDT across to the centre of the RAILWAY TRACKS.
 
-<<<<<<< HEAD
 As you approach the ONE PERSON on the far side of the RAILWAY TRACKS, you see that it is a young woman in a TOGA carrying an OWL.  The young woman has gotten her TOGA caught in the RAILWAY TRACKS.  HANNAH ARENDT is muttering something about rescuing symbols of the past.
-=======
-As you approach the ONE PERSON on the far side of the RAILWAY TRACKS, you see that it is a young woman in a TOGA carrying an OWL.  The young woman has gotten her TOGA caught in the RAILWAY TRACKS.
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 &quot;Excuse me, Ms HANNAH ARENDT?&quot; you say.  &quot;Could you explain to me your theory of praxis?&quot;
 
@@ -697,11 +628,7 @@ You look up, add see a TROLLEY--
 -&gt; [[GET HIT BY TROLLEY|ENTER DARKNESS]]
 (set: $deaths to ($deaths + 6))</tw-passagedata><tw-passagedata pid="76" name="ASK AYN RAND about ETHICAL EGOISM" tags="" position="1475,400" size="100,100">As you walk towards AYN RAND, you are struck by a thought.
 
-<<<<<<< HEAD
 //Is learning about Ethical Egoism,// you think, //really what I *most* want to be doing with my life?//
-=======
-//Is learning about Ethical Egoism right now,// you think, //really what I *most* want to be doing with my time?//
->>>>>>> ad7a0237d699e39523053f0aee1b1824c4b54417
 
 -&gt; [[RETURN TO RAILWAY TRACKS|The Trolley Problem]]
 (set: $philosophers to ($philosophers - (a: &quot;RAND&quot;)))</tw-passagedata><tw-passagedata pid="77" name="ASK SCANLON about SOCIAL CONTRACTUALISM" tags="" position="1300,425" size="100,100">You walk up to T. M. Scanlon, currently a professor of Philosophy at Harvard University.
