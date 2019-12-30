@@ -114,7 +114,8 @@ You are carrying: (if: $inventory&#39;s length is 0)[nothing](else:)[$inventory]
 
 You know: (if: $knowledge&#39;s length is 0)[nothing](else:)[$knowledge].
 
-It is 8:45AM on (a: $days&#39;s ($day)) in early 1997.(if: $day is 4)[  Wasn&#39;t there an election today?  You should probably vote. Oh, you didn&#39;t register.](if: $firedByLumbergh and ($daysLived - $jobseekerAllowanceFreshness is $starvationThreshold))[ You jingle your pockets and realize you&#39;re down to your last few pounds.  Your stomach growls painfully.]
+(set: _year to 1997 + ($daysLived+100)/365)
+It is 8:45AM on (a: $days&#39;s ($day)) in early (floor: _year).(if: $day is 4)[  Wasn&#39;t there an election today?  You should probably vote. Oh, you didn&#39;t register.](if: $firedByLumbergh and ($daysLived - $jobseekerAllowanceFreshness is $starvationThreshold))[ You jingle your pockets and realize you&#39;re down to your last few pounds.  Your stomach growls painfully.]
 
 You are walking down ALEXANDRA FRY ROAD and thinking about registering to vote for the next election when you hear a squeal of brakes on the railway tracks to the EAST.
 
@@ -278,11 +279,11 @@ There are some PHILOSOPHERS here: (if: $philosophers&#39;s length is 0)[nobody](
 &quot;Hello, emergency service operator. Which service do you require? Fire, police, or ambulance?&quot;
 
 (set: $emergencyService to &quot;I, uh...&quot;)
--&gt; FIRE(click: &quot;FIRE&quot;)[(set: $emergencyService to &quot;FIRE&quot;)]
--&gt; POLICE(click: &quot;POLICE&quot;)[(set: $emergencyService to &quot;POLICE&quot;)]
--&gt; AMBULANCE(click: &quot;AMBULANCE&quot;)[(set: $emergencyService to &quot;AMBULANCE&quot;)]
+-&gt; FIRE(click: &quot;FIRE&quot;)[(set: $emergencyService to &quot;FIRE&quot;)(replace: ?choice)[Fire, please]]
+-&gt; POLICE(click: &quot;POLICE&quot;)[(set: $emergencyService to &quot;POLICE&quot;)(replace: ?choice)[Police, and hurry]]
+-&gt; AMBULANCE(click: &quot;AMBULANCE&quot;)[(set: $emergencyService to &quot;AMBULANCE&quot;)(replace: ?choice)[Ambulance, straightaway]]
 
-&quot;$emergencyService,&quot; you reply.
+&quot;|choice&gt;[I, uh, well],&quot; you reply.
 
 &quot;I’ll just connect you now.&quot;
 
@@ -544,7 +545,7 @@ The police officer blinks again.](else:)[&quot;I know it sounds wrong, but I did
 You hand the TPS Reports Memo to the POLICE OFFICER.  She doesn&#39;t seem impressed.
 
 -&gt; [[PANIC]]
-(set: $inventory to ($inventory - &quot;TPS Reports Memo&quot;))</tw-passagedata><tw-passagedata pid="69" name="CLAIM REALITY is ABSURD" tags="" position="900,525" size="100,100">You look around you to take in the world, and dig deep for a smile.
+(set: $inventory to ($inventory - (a: &quot;TPS Reports Memo&quot;)))</tw-passagedata><tw-passagedata pid="69" name="CLAIM REALITY is ABSURD" tags="" position="900,525" size="100,100">You look around you to take in the world, and dig deep for a smile.
 
 &quot;Officer, I do not understand how people came to be on the RAILWAY TRACKS. I came to the RAILWAY TRACKS after hearing a noise. What I saw was terrible.&quot;  Your mind wanders back a moment.
 
@@ -552,7 +553,7 @@ You hand the TPS Reports Memo to the POLICE OFFICER.  She doesn&#39;t seem impre
 
 You shake yourself.  There is nothing you can do now.
 
-You see distrust in the POLICE OFFICER&#39;s eyes and in a dizzying moment you realize that your life will not return to normal after today; nor should it, after (if: $deaths is 0)[a person has](else:)[$deaths people have] died.(set: $acceptedAbsurdism to true)
+You see distrust in the POLICE OFFICER&#39;s eyes and in a dizzying moment you realize that your life will not return to normal after today; nor should it, after (if: $deaths is 1)[a person has](else:)[$deaths people have] died.(set: $acceptedAbsurdism to true)
 
 -&gt; [[continue, gracefully|PANIC]]</tw-passagedata><tw-passagedata pid="70" name="ARENDTIAN ESCAPE" tags="" position="1275,650" size="100,100">A few tens of minutes later, you&#39;re walking down the street with the POLICE OFFICER.
 
