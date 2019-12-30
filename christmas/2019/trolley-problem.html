@@ -236,7 +236,7 @@ Bill&quot;
 
 -&gt; [[continue|STARE AT SCREEN]]
 (set: $inventory to ($inventory + (a: &quot;TPS Reports Memo&quot;)))
-(if: $knowledge not contains &quot;how to file a TPS report&quot;)[
+(if: not ($knowledge contains &quot;how to file a TPS report&quot;))[
   (set: $knowledge to ($knowledge + (a: &quot;how to file a TPS report&quot;)))
 ]
 (set: $memoOnDesk to false)</tw-passagedata><tw-passagedata pid="31" name="The Trolley Problem" tags="" position="975,175" size="100,100">You are at the RAILWAY TRACKS.
@@ -277,9 +277,12 @@ There are some PHILOSOPHERS here: (if: $philosophers&#39;s length is 0)[nobody](
 
 &quot;Hello, emergency service operator. Which service do you require? Fire, police, or ambulance?&quot;
 
+(set: $emergencyService to &quot;I, uh...&quot;)
 -&gt; FIRE(click: &quot;FIRE&quot;)[(set: $emergencyService to &quot;FIRE&quot;)]
 -&gt; POLICE(click: &quot;POLICE&quot;)[(set: $emergencyService to &quot;POLICE&quot;)]
 -&gt; AMBULANCE(click: &quot;AMBULANCE&quot;)[(set: $emergencyService to &quot;AMBULANCE&quot;)]
+
+&quot;$emergencyService,&quot; you reply.
 
 &quot;I’ll just connect you now.&quot;
 
@@ -633,7 +636,7 @@ You look up, add see a TROLLEY--
 -&gt; [[RETURN TO RAILWAY TRACKS|The Trolley Problem]]
 (set: $philosophers to ($philosophers - (a: &quot;RAND&quot;)))</tw-passagedata><tw-passagedata pid="77" name="ASK SCANLON about SOCIAL CONTRACTUALISM" tags="" position="1300,425" size="100,100">You walk up to T. M. Scanlon, currently a professor of Philosophy at Harvard University.
 
-&quot;Hey,&quot; he says.  &quot;What&#39;s up?  It&#39;s a weird thing to appear as a character in fiction like this.  I&#39;m pleased to be here, but I&#39;m alive right now Massachusetts.&quot;
+&quot;Hey,&quot; he says.  &quot;What&#39;s up?  It&#39;s a weird thing to appear as a character in fiction like this.  I&#39;m pleased to be here, but I&#39;m alive right now Massachusetts.(if: $yourName contains &quot;T.M. SCANLON&quot;)[ I mean, you even merged with me on a previous iteration -- it&#39;s weird to make me a game avatar too!]&quot;
 
 &quot;Well,&quot; you say.  &quot;I guess there&#39;s these people that are going to be hit by these trolley, and I don&#39;t know how to stop it.  Frankly, I don&#39;t really see why it&#39;s my problem.&quot;
 
