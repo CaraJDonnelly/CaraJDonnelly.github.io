@@ -1,6 +1,6 @@
 ---
 id: 568
-title: Bounce, write, wiggle, wiggle
+title: Authorship and Audience
 date: 2015-12-12T12:50:24+00:00
 author: Cara Donnelly
 layout: post
@@ -14,9 +14,7 @@ tags:
   - fiction
   - writing
 ---
-&#8220;I want to be a writer&#8221;
-
-That&#8217;s what Asimov&#8217;s robot Cal said after committing murder &#8212; in self defence, to be sure.  His owner had decided a robot that could write better fiction than him was no robot he wanted to own, and so had ordered Cal destroyed.
+&#8220;I want to be a writer&#8221;  That&#8217;s what Asimov&#8217;s robot Cal said after committing murder &#8212; in self defence, to be sure.  His owner had decided a robot that could write better fiction than him was no robot he wanted to own, and so had ordered Cal destroyed.
 
 I enjoy writing, and I enjoy people reading my writing.  I&#8217;d work out how to grow an audience &#8212; how to write appealing fiction people wish to read, and how to reach those people.  So I started an email list with MailChimp (top right hand corner, if you&#8217;d like to sign up!) about six months ago, I started paying for an Adwords advert for [Broadcast From Heaven](http://www.toadworld.co.uk/stories/broadcast-from-heaven/) about three months ago, and I enabled Google Analytics about two months ago.  Google Analytics has been a bit of a shock.
 
