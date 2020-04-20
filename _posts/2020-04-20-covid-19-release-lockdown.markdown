@@ -238,7 +238,7 @@ Maybe I'm the wrong person to write this blogpost.
 I want everyone to be safe.
 I think this is the safest option.
 We should prepare for UK schools to reopen partially.
-We should discuss how to do that most safely, and if that level of safety is enough.
+We should discuss how to do that most safely, and whether that level of safety is enough.
 If Germany and Denmark reopening their schools goes well over the next few weeks, I think the UK should start reopening its schools.
 But first, the UK Government needs to show teachers and other school workers that this will be safe.
 Part of this will be showing that there will be enough PPE for teachers and other school workers.
