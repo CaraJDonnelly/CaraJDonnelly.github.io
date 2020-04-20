@@ -184,7 +184,9 @@ The safest region should reopen first.
 We should wait for several more weeks to see what happens in Denmark and Germany.
 Those countries have decided that reopening schools is the right thing to do.
 I think they are right, but maybe they are wrong.
-We should start preparing to reopen schools and only do if nothing goes wrong in those countries.
+We should start preparing to reopen schools and only do so if nothing goes wrong in those countries.
+We would need to make sure we had enough PPE for teachers and other school workers too.
+Since [health workers in the UK haven't had enough PPE](https://www.ft.com/content/c462d350-f1ab-4013-86c5-e5d9dc88df97) we probably don't have enough PPE to reopen schools yet.
 
 ### Keeping children safe
 
@@ -238,4 +240,6 @@ I think this is the safest option.
 We should prepare for UK schools to reopen partially.
 We should discuss how to do that most safely, and if that level of safety is enough.
 If Germany and Denmark reopening their schools goes well over the next few weeks, I think the UK should start reopening its schools.
-
+But first, the UK Government needs to show teachers and other school workers that this will be safe.
+Part of this will be showing that there will be enough PPE for teachers and other school workers.
+The UK Government should start working on that now.
