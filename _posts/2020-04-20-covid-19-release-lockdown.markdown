@@ -11,6 +11,15 @@ tags:
   - coronavirus
 ---
 
+*NOTE:* the below was written on 2020-04-11.
+After this BBC Panorama revealed [the Government's mismanagement of Personal Protective Equipment (PPE)](https://www.bbc.com/news/newsbeat-52440641).
+The BBC also report a [rare COVID-19 related syndrome affecting children](https://www.bbc.com/news/health-52439005).
+These developments together mean that it is unlikely to be safe to reopen schools in the near future.
+Teachers would not be able to source sufficient PPE.
+Children may be at higher risk than previously understood.
+I would not at the current time support reopening schools.
+
+
 I am not an epidemiologist.
 This blogpost is only about the things I think the UK Government must do next.
 I'm writing it because we're in a scary situation.
@@ -233,13 +242,18 @@ If that test comes back positive, they should shut that school again temporarily
 
 ## Conclusion
 
-I'm not a teacher, and I don't have children.
-Maybe I'm the wrong person to write this blogpost.
-I want everyone to be safe.
-I think this is the safest option.
-We should prepare for UK schools to reopen partially.
-We should discuss how to do that most safely, and whether that level of safety is enough.
-If Germany and Denmark reopening their schools goes well over the next few weeks, I think the UK should start reopening its schools.
+*NOTE:* as noted at the top of this blogpost, the situation has changed.
+I would not at the current time support reopening schools.
+The final three sentences of my original conclusion stand: schools can only reopen when safe.
+
+~~I'm not a teacher, and I don't have children.~~
+~~Maybe I'm the wrong person to write this blogpost.~~
+~~I want everyone to be safe.~~
+~~I think this is the safest option.~~
+~~We should prepare for UK schools to reopen partially.~~
+~~We should discuss how to do that most safely, and whether that level of safety is enough.~~
+~~If Germany and Denmark reopening their schools goes well over the next few weeks, I think the UK should start reopening its schools.~~
+
 But first, the UK Government needs to show teachers and other school workers that this will be safe.
 Part of this will be showing that there will be enough PPE for teachers and other school workers.
 The UK Government should start working on that now.
