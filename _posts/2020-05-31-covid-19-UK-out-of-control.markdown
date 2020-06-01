@@ -1,5 +1,5 @@
 ---
-title: COVID-19 and the loss of control in England
+title: COVID-19 and the loss of control in the UK
 date: 2020-05-31
 author: Cara Donnelly
 layout: post
